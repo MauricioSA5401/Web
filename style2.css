@@ -1,0 +1,153 @@
+body {
+    background-image: url('si/f.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px; 
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        flex-direction: column; 
+    }
+
+    nav ul li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px; 
+        position: relative; 
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav ul {
+        margin-top: 20px; 
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+header h1 {
+    font-size: 20px;
+}
+header a {
+    display: block; 
+    margin: 5px auto; 
+}
+
+header {
+    font-family: "Arial Black", sans-serif; 
+    font-size: 28px;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00000081;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+main.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+    background-color: #04b6f6;
+    color: #090909;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #555;
+}
+.contenido:nth-child(1){
+    background-color: #f0f0f089;
+}
+
+.contenido:nth-child(2) {
+    background-color: #f0f0f089;
+    color: #050505;
+}
+
+
+.contenido:nth-child(3) {
+    background-color: #f0f0f089;
+    color: #050505;
+}
+
+
+.contenido:nth-child(4) {
+    background-color: #f0f0f089;
+    color: #050505;
+
+}
+.contenido:nth-child(5) {
+    background-color: #f0f0f089;
+    color: #050505;
+}
+.contenido:nth-child(6){
+    background-color: #f0f0f089;
+}
+
+
+.logo img {
+   display: none;
+}
