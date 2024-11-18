@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "localhos";
 $username = "root";
 $password = "";
 $dbname = "Residencias_Tesji";
